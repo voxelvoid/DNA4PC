@@ -19,7 +19,7 @@ GAME.CON:1923: warning: found `else' with no `if'
 GAME.CON: In state `pigshootenemystate':
 GAME.CON:2817: warning: found `else' with no `if'
 Found 4 warning(s), 0 error(s).
-Compiled 104152 bytes in 32ms, v1.3D compatibility mode
+Compiled 104152 bytes in 31ms, v1.3D compatibility mode
 Using level: "/autosave_playtest.map".
 Initialized 96.0M cache
 Sound hlminhal.voc(#23) not found!
@@ -36,7 +36,9 @@ Sound turrdy.voc(#162) not found!
 Sound b3atk01.voc(#176) not found!
 Sound vpiss2.voc(#182) not found!
 Initializing OSD...
-No game controllers found
+Game controllers:
+  1. USB Vibration Joystick (BM)
+Using controller USB Vibration Joystick (BM)
 Executing "settings.cfg"
 Setting video mode 1024x768 (32-bpp windowed)
 Refresh rate: 60.00Hz
@@ -48,19 +50,8 @@ Initializing sound: SDL WASAPI driver on 2 — Realtek High Definition Audio: 44
 Initializing MIDI driver: Windows MME: [-1] Microsoft MIDI Mapper
 Cache time: 8ms
 User Map: /autosave_playtest.map
+ST_16_PLATFORM_DOWN/ST_17_PLATFORM_UP: bad neighbor for sector 8!
 ARMOR
-AMMO FOR PISTOL!
-ACCESS CARD
-AMMO FOR PISTOL!
-UNLOCKED
-ACCESS CARD
-SHOTGUN
-AMMO FOR SHOTGUN
-SMALL MEDKIT: +10
-UNLOCKED
-UNLOCKED
-LARGE MEDKIT: +30
-Map "/E1L9.map" not found or invalid map version!
  
 Wrote eduke32.cfg
 Wrote settings.cfg
