@@ -1,0 +1,66 @@
+EDuke32 r9297-2bb6cbcae
+Built Dec 21 2020 07:11:31, GCC 10.0.0, 64-bit 
+Application parameters: -map autosave_playtest.map -noinstancechecking 
+Using D:/eduke32_win64_20201221-9297-2bb6cbcae/dna4pc/ for game data
+Running on Windows 10 (build 10.0.19043)
+Initialized 1ms system timer
+CPU: Intel(R) Core(TM) i5-4690K CPU @ 3.50GHz
+Initializing SDL 2.0.13
+Searching for game data...
+Using "DUKE3D.GRP" as main game data file.
+Compiling: GAME.CON (99639 bytes)
+Including: DEFS.CON (28893 bytes)
+Including: USER.CON (36930 bytes)
+USER.CON:751: warning: sound 261 already defined (hydro43.voc)
+GAME.CON: In state `blimphitstate':
+GAME.CON:157: warning: expected action, found define.
+GAME.CON: In actor `ORGANTIC':
+GAME.CON:1923: warning: found `else' with no `if'
+GAME.CON: In state `pigshootenemystate':
+GAME.CON:2817: warning: found `else' with no `if'
+Found 4 warning(s), 0 error(s).
+Compiled 104152 bytes in 32ms, v1.3D compatibility mode
+Using level: "/autosave_playtest.map".
+Initialized 96.0M cache
+Sound hlminhal.voc(#23) not found!
+Sound hlmexhal.voc(#24) not found!
+Sound yes.voc(#45) not found!
+Sound fan.voc(#77) not found!
+Sound hover.voc(#80) not found!
+Sound turrrm.voc(#145) not found!
+Sound turrrg.voc(#146) not found!
+Sound turrat.voc(#147) not found!
+Sound b3atk01.voc(#152) not found!
+Sound turrpn.voc(#161) not found!
+Sound turrdy.voc(#162) not found!
+Sound b3atk01.voc(#176) not found!
+Sound vpiss2.voc(#182) not found!
+Initializing OSD...
+No game controllers found
+Executing "settings.cfg"
+Setting video mode 1024x768 (32-bpp windowed)
+Refresh rate: 60.00Hz
+Focus change: Restored en-US keyboard layout
+OpenGL information
+ NVIDIA Corporation NVIDIA GeForce GTX 1050/PCIe/SSE2 4.6.0 NVIDIA 511.23
+Opened "texturecache" as cache file
+Initializing sound: SDL WASAPI driver on 2 — Realtek High Definition Audio: 44.1 KHz stereo with 64 voices
+Initializing MIDI driver: Windows MME: [-1] Microsoft MIDI Mapper
+Cache time: 8ms
+User Map: /autosave_playtest.map
+ARMOR
+AMMO FOR PISTOL!
+ACCESS CARD
+AMMO FOR PISTOL!
+UNLOCKED
+ACCESS CARD
+SHOTGUN
+AMMO FOR SHOTGUN
+SMALL MEDKIT: +10
+UNLOCKED
+UNLOCKED
+LARGE MEDKIT: +30
+Map "/E1L9.map" not found or invalid map version!
+ 
+Wrote eduke32.cfg
+Wrote settings.cfg
