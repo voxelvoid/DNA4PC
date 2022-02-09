@@ -48,10 +48,26 @@ OpenGL information
 Opened "texturecache" as cache file
 Initializing sound: SDL WASAPI driver on 2 — Realtek High Definition Audio: 44.1 KHz stereo with 64 voices
 Initializing MIDI driver: Windows MME: [-1] Microsoft MIDI Mapper
-Cache time: 8ms
+Cache time: 7ms
 User Map: /autosave_playtest.map
-ST_16_PLATFORM_DOWN/ST_17_PLATFORM_UP: bad neighbor for sector 8!
-ARMOR
+ACCESS CARD
+AMMO FOR PISTOL!
+LARGE MEDKIT: +30
+Focus change: Restored en-US keyboard layout
+RUN MODE OFF
+RUN MODE ON
+UNLOCKED
+SHOTGUN
+AMMO FOR SHOTGUN
+SMALL MEDKIT: +10
+ACCESS CARD
+UNLOCKED
+AMMO FOR PISTOL!
+UNLOCKED
+LARGE MEDKIT: +30
+LARGE MEDKIT: +30
+RUN MODE OFF
+RUN MODE ON
  
 Wrote eduke32.cfg
 Wrote settings.cfg
