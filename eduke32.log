@@ -19,7 +19,7 @@ GAME.CON:1923: warning: found `else' with no `if'
 GAME.CON: In state `pigshootenemystate':
 GAME.CON:2817: warning: found `else' with no `if'
 Found 4 warning(s), 0 error(s).
-Compiled 104152 bytes in 31ms, v1.3D compatibility mode
+Compiled 104152 bytes in 39ms, v1.3D compatibility mode
 Using level: "/autosave_playtest.map".
 Initialized 96.0M cache
 Sound hlminhal.voc(#23) not found!
@@ -48,22 +48,10 @@ OpenGL information
 Opened "texturecache" as cache file
 Initializing sound: SDL WASAPI driver on 2 — Realtek High Definition Audio: 44.1 KHz stereo with 64 voices
 Initializing MIDI driver: Windows MME: [-1] Microsoft MIDI Mapper
-Cache time: 8ms
+Cache time: 122ms
 User Map: /autosave_playtest.map
 ARMOR
-AMMO FOR PISTOL!
-ACCESS CARD
-UNLOCKED
-AMMO FOR PISTOL!
-LARGE MEDKIT: +30
-ACCESS CARD
-SHOTGUN
-GOT USED ARMOR
-AMMO FOR SHOTGUN
-SMALL MEDKIT: +10
-UNLOCKED
-AMMO FOR PISTOL!
-UNLOCKED
+ST_16_PLATFORM_DOWN/ST_17_PLATFORM_UP: bad neighbor for sector 8!
  
 Wrote eduke32.cfg
 Wrote settings.cfg
