@@ -1,0 +1,32 @@
+v2.2 (15.07.2020)
+ * File list
+ * Drag-and-drop ART files
+ * Last opened files submenu
+ * Option to always fill tile in viewer
+ * Option to show tile borders in viewer
+ * Asterisk for changed files in the title bar
+ * Scroll wheel support for spinners
+ * Export to DEF (texture)
+ * Keep parameters after replacing (importing or pasting) a tile
+ * Integer zoom
+ * Fixed incorrect scroll bar behaviour after resizing a window
+ * Fixed animation not resetting
+
+v2.1 (01.07.2020)
+ * Export to DEF feature
+ * Config file (saves settings and last folder between sessions)
+ * Save all button/hotkey (saves open art and dat files)
+ * Shift tile left/right buttons/hotkeys
+ * Select all button/hotkey
+ * Ion Fury ART support
+ * Cryptic Passage AR_ support
+ * Signed int checksum
+ * Automatically open surface/voxel/palette DAT if found
+ * Open DAT files shown in the title bar
+ * Move tile browser to the top when new ART is opened
+ * Fixed view/surface cloning bug
+ * Fixed batch exporting if one of the tiles is empty
+ * When batch exported, tiles will have their tilenum in the name
+ * Fixed importing order of files with numerals in names
+ * Fixed toolips drawing behind canvas
+ * Other GUI changes

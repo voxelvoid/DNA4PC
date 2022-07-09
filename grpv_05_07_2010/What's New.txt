@@ -1,0 +1,133 @@
+GRPViewer build 05.07.2010 release notes:
++Added VOC playing support, starts by doubleclicking or "enter" or pressing play button. Depending on soundcard driver (or OS) few VOC entries may not play. Note that some VOCs have interesting text fields dysplayed in the log ;)
++Fixed an exception when pressing F2 (+ misc keyboard combinations related to F2) while Entries ListView was out of focus.
+
+
+GRPViewer build 04.28.2010 release notes:
++fixed wrong (but still valid) path for GRP items extraction
++fixed "opened GRP" overwriting attempt handling
++opened GRP file name and path is now displayed in the windows caption
+
+GRPViewer build 04.08.2010 release notes:
++fixed WorkPath saving/restoring glitch (reported by Gambini @ duke4.net forums)
++fixed gviewer.ini unwanted appearance in GRP file folder in case of opening GRP files after associating them with GViewer.exe
++last opened file is now stored into gviewer.ini in case of opening GRP files after associating them with GViewer.exe
++Tile Zooming is not reset anymore after clicking on another Tile, also ZoomValue is shown near +- buttons (requested by Gambini, though I really wanted this feature myself long ago :D)
+
+
+GRPViewer build 03.29.2010 release notes:
++ opens MAP V8 now
+
+GRPViewer build 03.28.2010 release notes:
+
++fixed Go2Tile input box position on window resizing
++restored List Related Maps functionality which shows the coords of the first found tile in a map
+
+
+GRPViewer build 03.05.2010 release notes:
+
+- animated clock showing GRPV busy state is now removed ffs
+- boring left-right-up-down buttons for scrolling map are now removed
++ scrolling and zooming is bound to mouse wheel in combination with shift and ctrl buttons (slow as hell, wonder if I could render the stuff through DirectDraw one day)
++ Go2Tile feature is available, just put the desired Tile Number in teh input field and hit enter
++ Highlight Wall by Tile Number feature to help finding places in the map where you want too look at the newly created tile in game, put the desired wall tile into the input field and scroll the map to find thick blue walls
++ backspace is now active for returning from maps and art entries into the grp content list
++ copy to clipboard is available from the context menu of selected entry, it was designed for art tile only but works for map view mode aswell, basically it grabs anything that's rendered in the Art Preview window, dont mess with zoom buttons before copying to clipboard otherwise you'll get upscaled image which may be undesired
+
+
+------------------------------------------------------------------
+
+Version 1.1c [b: 01/03/05] Test Release
+1. md3 loader which shows basic md3 info in log window. The md3 renderer is still
+under construction.
+
+Version 1.1c [b: 12/31/05] Test Release
+1. Rewrote DEF parsing routine - now it's capable to handle any types of HRP and
+as much includes in already included files as possible. HRTT works now with the latest HRP.
+
+Version 1.1c [b: 11/06/05] Test Release
+1. Added support for ART files. You can now open ART files from disc, browse it
+and extract tiles.
+2. Added support for external ART files. Doubleclicking on embedded ART file while
+browsing any GRP file forces GRPV to check if there is an external ART file with
+the same name.
+3. Few minor fixes.
+
+Version 1.1c [b: 06/13/05] Test Release
+1. Palette is loaded now from the opened GRP file, if you still have
+"palette.dat" file in GRPViewer's dir it's recommended to delete it, otherwise
+it will be always loaded - thus ignoring the original palette embedded into GRP
+file.
+2. "names.h" for both Duke Nukem 3D and Shadow Warrior are stored in GRPV's
+executable. It's recommended to delete "names.h" file from GRPViewer's dir to
+allow GRPV to detect both games automatically and to load the apropriate "names"
+for the loaded GRP file.
+3. GRP loader minor bug fixed [incorrect detection of the entry index]
+
+Version 1.1c [b: 04/11/05] Test Release
+1. Added HR-Pack Support [untested]
+2. Added SkyBox previewer
+3. Improved skin loader (2-3 times faster)
+4. Fixed JPG skins loading bug
+5. Added changable params into Models Tool's interface
+
+Version 1.1b [b: 10/18/04]:
+1. FixRelease (to be compatible with new jfDuke definition rules)
+2. Minor HRTT improvements and features
+
+Version 1.1b [b: 10/04/04]:
+1. Model Tool engine implemented. For testing purposes only. Look into
+GViewer.ini to enable MT.
+
+Version 1.1b [b: 09/26/04]:
+1. Fixed HRTT "saving changes" bug
+2. Made some HRTT minor improvements...
+
+Version 1.1b [b: 09/26/04]:
+1. HRTT is 100% finished. Features available: search for Broken links, broken
+extension, double binds. Batch Fixer for broken extensions. Multiple "include
+CON files" support.
+2. TileZooming fixed & improved
+3. Bug resolved: HRTT mulfunction after GRP file is reloaded twice.
+4. Bug resolved: HRTT mulfunction after creating new GRP.
+4. Bug resolved: showing last opened ART content when browsing GRP content after
+   HRTT window is closed [reporter: Mean Person]
+
+Version 1.1b [b: 09/19/04]:
+1. Added "smiles" support for Tiles list.
+2. Search for maps containing the given Sprite or Texture added.
+3. Bug resolved: when You start GRPViewer at first time and define a path for
+   jfDuke - HRTT is still unavailable until GRPViewer is restarted.
+
+Version 1.1b [b: 09/12/04]:
+
+1. Added support for naming levels. Uses "user.con" to identify map located in
+   duke3d.grp.
+
+2. Hi-Res Textures Tool [HRTT] implemented.
+   WARNING: this feature is uncomlpete an untested
+
+3. GRPViewer Logo has been changed.
+
+Version 1.1b [b: 08/31/04]:
+
+1. Added support for naming ART Tiles. Uses 'names.h' file located in the
+   GRPViewer's directory.
+
+2. Changes made in MAP Viewer engine...
+
+3. Added ART Tile Zooming feature using either simple resizing or resampling
+   with lanczos filter.
+
+Version 1.1b [b: 08/08/04]:
+
+1. Added support for next Group Files:
+   Doom [.wad] - |Extract only| 
+   Quake [.pak] - |Flat mode w/o directories|Extract only|
+   Chasm [.bin] - |Extract only|
+   Sin [.sin] - |Extract only| - not tested
+
+2. Added support for viewing Duke3d levels [.map] in 2D Wireframe mode
+   with highlighted secret places feature - |slow|experimental|
+
+3. Serious memory leakage resolved.
